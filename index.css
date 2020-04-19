@@ -1,0 +1,72 @@
+*{
+	font-family: arial;
+}
+.fa-navicon{
+	color: white;
+}
+.main{
+	margin-top: 70px;
+}
+nav{
+	box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2);
+	font-weight: lighter;
+	background-color: #023048;
+	color: white;
+}
+.collapse > ul > li > a{
+	font-family: cursive;
+	color: white;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+	opacity: 0.5;
+	font-size: 80%;
+}
+.nav-item{
+	margin-left: 20px;
+}
+.activelink{
+	border-bottom: 3px solid black;
+	font-weight: bold;
+}
+.collapse > ul > .activelink > a{
+	opacity: 1;
+}
+.collapse > ul > li> a:hover{
+	border-bottom: 3px solid black;
+	transition: 0.1s ease-in-out;
+	opacity: 1;
+}
+.caropic{
+	width: 100%;
+	height: 450px;
+}
+.partners{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.ppic{
+	width:80%;
+	height: 100px;
+}
+.dicons{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+footer{
+	background-color: #023048;
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+}
+.delay1{
+	animation-delay: 1.1s;
+}
+.delay2{
+	animation-delay: 2.1s;
+}
+.delay3{
+	animation-delay: 3.1s;
+}

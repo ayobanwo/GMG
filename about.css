@@ -1,0 +1,13 @@
+body{
+	overflow-x: hidden;
+}
+
+.vision{
+	font-size: 1.3em;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.mission{
+	text-align: center;
+	font-size: 1.1em;
+}
